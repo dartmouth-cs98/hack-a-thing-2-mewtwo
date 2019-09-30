@@ -32,4 +32,4 @@ We learned how to use SceneKit together with ARKit to put 3D Objects into the re
 
 ### What Didn't Work
 
-We didn't have time to implement zooming the earth in the AR versison.
+We didn't have time to implement zooming the earth in the AR version.
