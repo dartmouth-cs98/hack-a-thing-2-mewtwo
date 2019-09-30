@@ -13,7 +13,10 @@ The second part is to use ARKit to implement placing the Earth in the augmented 
 ### How It Works
 
 For the ar version of the app, open the app and it will automatically detect the plane your camera is capturing. Touch the plane to place an Earth above it. Change the lighting of the surroudings and observe how the 3D earth changes with the lighting.
-<img src="IMG_3788.PNG" width="200">
+
+<div style="text-align:center">
+<img src="IMG_3788.PNG" width="300">
+ </div>
 
 ### Distribution of Work
 
