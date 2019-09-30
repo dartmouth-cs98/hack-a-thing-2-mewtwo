@@ -10,6 +10,7 @@ import UIKit
 import SceneKit
 
 class ViewController: UIViewController {
+    // View controller for the app
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,11 +19,10 @@ class ViewController: UIViewController {
         // set camera and camera location
         let cameraNode = SCNNode()
         cameraNode.camera = SCNCamera()
-        
         cameraNode.position = SCNVector3(x:0, y: 0, z: 5)
-        
         scene.rootNode.addChildNode(cameraNode)
         
+        // set light node
         let lightNode = SCNNode()
         lightNode.light = SCNLight()
         lightNode.light?.type = .omni
@@ -37,28 +37,25 @@ class ViewController: UIViewController {
         let earthNode = EarthNode()
         scene.rootNode.addChildNode(earthNode)
         
-        
         let sceneView = self.view as! SCNView
         sceneView.scene = scene
         
         // show statistics and background color
-        sceneView.showsStatistics = true
         sceneView.backgroundColor = UIColor.black
         sceneView.allowsCameraControl = true
-        
+        sceneView.showsStatistics = true
         
     }
 
     override var prefersStatusBarHidden: Bool {
-        // to get rid of battery percentage
+        // get rid of battery percentage
         return true
     }
     
     override func didReceiveMemoryWarning() {
+        // get rid of any resources that can be recreated
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
 
 }
 

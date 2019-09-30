@@ -11,6 +11,8 @@ import SceneKit
 class EarthNode: SCNNode {
     override init() {
         super.init()
+        
+        // create sphere and set properties
         self.geometry = SCNSphere(radius: 0.2)
         self.geometry?.firstMaterial?.diffuse.contents = UIImage(named:"Diffuse")
         self.geometry?.firstMaterial?.specular.contents = UIImage(named:"Specular")
@@ -32,6 +34,5 @@ class EarthNode: SCNNode {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
     
 }
