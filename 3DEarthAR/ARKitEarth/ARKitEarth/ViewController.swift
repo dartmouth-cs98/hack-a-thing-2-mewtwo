@@ -47,7 +47,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene.rootNode.addChildNode(lightNode)
     }
     
-    // where we're actually configuring the AR session
+    // where we are actually configuring the AR session
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
