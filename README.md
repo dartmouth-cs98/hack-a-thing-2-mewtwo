@@ -6,7 +6,7 @@ Qirong Li and Xinchen (Olivia) Zhao
 
 ### Our Project
 
-Our goal is to make an iOS app that applies augmenteed reality to observe different angles of the Earth.
+Our goal is to make an iOS app that applies augmented reality to observe different angles of the Earth.
 
 The first part is to use set up the UI and the Earth using a scene kit. We followed [this tutorial](https://www.youtube.com/watch?v=3rpNDENQgPM) to set up the scene, a camera, the Earth, the particle system in the background, and the lighting. We added axis and location so that the Earth renders differently when the user is at different distance and angles. To change the distance and angles, pinch the screen to zoom in and out, and swipe to rotate view.
 
