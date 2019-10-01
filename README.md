@@ -16,11 +16,11 @@ The second part is to use ARKit to implement placing the Earth in the augmented 
 
 For the star background version of the app, open the app and it will demonstrate an Earth from a distance. The user can pinch the screen to zoom in and out, and swipe to rotate their point of view.
 
-<img src="1.JPG" width="300">
+<img src="1.JPG" width="400">
 
 For the AR version of the app, open the app and it will automatically detect the plane your camera is capturing. Touch the plane to place an Earth above it. Change the lighting of the surroudings and observe how the 3D earth changes with the lighting.
 
-<img src="2.JPG" width="300">
+<img src="2.JPG" width="400">
 
 ### Distribution of Work
 
